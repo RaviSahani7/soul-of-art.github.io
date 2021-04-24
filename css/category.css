@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, rgba(255, 166, 0, 0.8), rgba(255, 230, 0, 0.8), rgba(3, 231, 3, 0.8), rgba(117, 117, 247, 0.8));
+}
+
+
+/* Pencil Sketch CSS */
+
+#pencil {
+    position: relative;
+    height: 300px;
+    text-align: center;
+}
+
+#pencil h1 {
+    position: relative;
+    width: 600px;
+    top: 60px;
+    padding: 40px;
+    margin: auto auto;
+    font-size: 72px;
+    color: rgb(51, 51, 51);
+    border: 2px solid black;
+}
+
+#pencil-sketch-gallery {
+    width: 80%;
+    margin: auto auto;
+}
+
+#pencil-sketch-gallery .gallery {
+    position: relative;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#pencil-sketch-gallery .gallery img {
+    width: 350px;
+    height: 350px;
+    border: 5px solid white;
+}
+
+#pencil-sketch-gallery .gallery img:hover {
+    width: 345px;
+    height: 345px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+@media screen and (max-width: 600px) {
+    #pencil h1 {
+        width: 100%;
+        font-size: 52px;
+    }
+    #pencil-sketch-gallery {
+        width: 100%;
+    }
+    #pencil-sketch-gallery .gallery img {
+        width: 100%;
+        height: auto;
+    }
+    #pencil-sketch-gallery .gallery img:hover {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* Acrylic CSS */
+
+#acrylic {
+    position: relative;
+    height: 300px;
+    text-align: center;
+}
+
+#acrylic h1 {
+    position: relative;
+    width: 600px;
+    top: 60px;
+    padding: 40px;
+    margin: auto auto;
+    font-size: 72px;
+    color: rgb(51, 51, 51);
+    border: 2px solid black;
+}
+
+#acrylic-gallery {
+    width: 80%;
+    margin: auto auto;
+}
+
+#acrylic-gallery .gallery {
+    margin-bottom: 50px;
+}
+
+#acrylic-gallery .gallery img {
+    width: 350px;
+    height: 350px;
+    border: 5px solid white;
+}
+
+#acrylic-gallery .gallery img:hover {
+    width: 345px;
+    height: 345px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+@media screen and (max-width: 600px) {
+    #acrylic h1 {
+        width: 100%;
+        font-size: 52px;
+    }
+    #acrylic-gallery {
+        width: 100%;
+    }
+    #acrylic-gallery .gallery img {
+        width: 100%;
+        height: auto;
+    }
+    #acrylic-gallery .gallery img:hover {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* Water Color CSS */
+
+#water {
+    position: relative;
+    height: 300px;
+    text-align: center;
+}
+
+#water h1 {
+    position: relative;
+    width: 600px;
+    top: 60px;
+    padding: 40px;
+    margin: auto auto;
+    font-size: 72px;
+    color: rgb(51, 51, 51);
+    border: 2px solid black;
+}
+
+#water-color-gallery {
+    width: 80%;
+    margin: auto auto;
+}
+
+#water-color-gallery .gallery {
+    margin-bottom: 50px;
+}
+
+#water-color-gallery .gallery img {
+    width: 350px;
+    height: 350px;
+    border: 5px solid white;
+}
+
+#water-color-gallery .gallery img:hover {
+    width: 345px;
+    height: 345px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+@media screen and (max-width: 600px) {
+    #water h1 {
+        width: 100%;
+        font-size: 52px;
+    }
+    #water-color-gallery {
+        width: 100%;
+    }
+    #water-color-gallery .gallery img {
+        width: 100%;
+        height: auto;
+    }
+    #water-color-gallery .gallery img:hover {
+        width: 100%;
+        height: auto;
+    }
+}
